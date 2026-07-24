@@ -1,7 +1,29 @@
 aid: boldr
 name: Boldr
-description: Boldr is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Boldr is a Techstars-backed consumer hardware company building energy-saving
+  smart home climate control devices. Its two products are Kelvin, a smart
+  infrared heater, and Klima, a smart thermostat controller for mini-split air
+  conditioners that also monitors appliance health so units last longer with
+  fewer issues. Both devices are managed through the Boldr mobile app, which
+  lets homeowners control climate settings remotely and track energy usage to
+  lower utility bills. Boldr also runs Boldr Pro, a program for HVAC
+  contractors. The company sells direct to consumers through a Shopify-hosted
+  online store at shopboldr.com and does not currently publish a first-party
+  developer API; its only public machine-readable surface is the Shopify
+  Customer Account OIDC discovery served at the storefront host.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://shopboldr.com/cdn/shop/files/Shopify_1200x1200.jpg?v=1726039985
 url: https://raw.githubusercontent.com/api-evangelist/boldr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Smart Home
+- Energy
+- Climate Control
+- IoT
+- Consumer Hardware
+- Thermostat
+- HVAC
+- Ecommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://shopboldr.com/
+- type: Blog
+  url: https://shopboldr.com/blogs/news
+- type: Support
+  url: https://shopboldr.com/pages/contact
+- type: TermsOfService
+  url: https://shopboldr.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://shopboldr.com/policies/privacy-policy
+- type: WellKnown
+  url: well-known/boldr-well-known.yml
+- type: DomainSecurity
+  url: security/boldr-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

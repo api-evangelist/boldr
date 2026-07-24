@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://shopboldr.com/.well-known/
+host: https://shopboldr.com
+note: >-
+  shopboldr.com is a Shopify-hosted storefront. The OIDC/OAuth discovery
+  documents below are served by Shopify's Customer Account API for the Boldr
+  storefront (issuer https://shopify.com/authentication/55546019918); they are
+  the real authentication surface for the store's customer accounts, not a
+  first-party Boldr developer API. No first-party Boldr API is published.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: boldr-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: boldr-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
