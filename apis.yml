@@ -12,6 +12,17 @@ description: >-
   online store at shopboldr.com and does not currently publish a first-party
   developer API; its only public machine-readable surface is the Shopify
   Customer Account OIDC discovery served at the storefront host.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
